@@ -59,6 +59,3 @@ function togglePin(playerId) {
 
     renderLeaderboard();
 }
-
-// Initial render
-renderLeaderboard();

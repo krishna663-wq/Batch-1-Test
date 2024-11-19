@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboard with Comparison</title>
+    <link rel="stylesheet" href="./style1.css">
+</head>
+<body>
+    <div class="container">
+        <div class="leaderboard">
+            <table id="leaderboardTable">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Total</th>
+                        <th>Easy</th>
+                        <th>Medium</th>
+                        <th>Hard</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Table rows will be inserted here by JavaScript -->
+                </tbody>
+            </table>
+        </div>
+
+        <div class="comparison-box">
+            <h2>Compare Users</h2>
+            <div class="selected-users" id="selectedUsers">
+                Select two users to compare
+            </div>
+            <button class="compare-btn" id="compareBtn" disabled>Compare</button>
+            <div class="comparison-result" id="comparisonResult"></div>
+        </div>
+    </div>
+    <script src="./script1.js"></script>
+</body>
+</html>
