@@ -99,6 +99,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 }
             });
         };
+        
 
         // Initialize the page
         populateSectionFilter();
@@ -146,4 +147,5 @@ document.addEventListener('DOMContentLoaded', async () => {
     } catch (error) {
         console.error('Error fetching data:', error);
     }
+
 });
