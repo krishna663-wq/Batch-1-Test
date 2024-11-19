@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.leaderboard {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 16px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+}
+
+.score {
+    text-align: right;
+}
+
+.pin-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    color: #666;
+}
+
+.pin-button:hover {
+    color: #007bff;
+}
+
+.pinned {
+    background-color: #e8f4ff;
+}
+
+.pin-icon {
+    width: 16px;
+    height: 16px;
+    fill: currentColor;
+}
+
+.pinned .pin-icon {
+    color: #007bff;
+}
+
+tr:hover {
+    background-color: #f8f9fa;
+}
